@@ -1,8 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-<!-- If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>` -->
-https://squishypig007.github.io/finaldevelopment
+https://squishypig007.github.io/development/
 
 ### Goal and Value of the Application
 Similar to the Bakery Shop example, Blockbuster Bros has a variety of films with varying prices, views and prices for the virtual copies of the movies. The aggregator here tallies the total cost of your favorites if you were to get them online. The goal is to be able to act as a complete guide of all these movies and how much the user's desired picks would cost online.
