@@ -1,0 +1,99 @@
+.App {
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #22252c;
+}
+
+.title{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: rgb(255, 191, 0);
+  text-shadow: 1px 3px 5px rgb(0, 0, 0);
+  font-style: italic;
+}
+
+.wrapper_bakery_item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.outermost_columns{
+  display: flex;
+  /* background-color: red; */
+  flex-direction: row;
+}
+
+.favoriteDiv{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.h5{
+  color: grey;
+}
+
+.menu{
+  /* display: flex; */
+  flex-direction: column;
+  background-color: white;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  width: 150px;
+  height: 800px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
